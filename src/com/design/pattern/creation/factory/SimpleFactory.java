@@ -1,4 +1,4 @@
-package com.designpattern.creation.factory;
+package com.design.pattern.creation.factory;
 
 
 import javax.crypto.Cipher;

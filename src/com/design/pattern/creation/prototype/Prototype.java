@@ -1,4 +1,4 @@
-package com.designpattern.creation.prototype;
+package com.design.pattern.creation.prototype;
 
 public class Prototype implements Cloneable{
 

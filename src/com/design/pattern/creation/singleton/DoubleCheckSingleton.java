@@ -1,4 +1,4 @@
-package com.designpattern.creation.singleton;
+package com.design.pattern.creation.singleton;
 
 /**
  * DoubleCheckedLocking 双重检查锁
