@@ -1,17 +1,25 @@
 
 ## 简单工厂 (静态工厂方法)
+[SimpleFactory](SimpleFactory.java)
+
+又叫 静态工厂方法模式
 3个实体
 工厂
 抽象产品 具体产品
 
 
-模式应用
 ## 工厂方法
+[FactoryMethod](FactoryMethod.java)
+
+虚拟构造器或者多态工厂方法
 4个实体
 抽象工厂 具体工厂
 抽象产品 具体产品
 
 ## 抽象工厂
+[AbstractFactory](AbstractFactory.java)
+
+Kit模式
 4个实体
 抽象工厂 具体工厂
 抽象产品 具体产品
