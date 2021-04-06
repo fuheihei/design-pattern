@@ -8,6 +8,7 @@ package com.design.pattern.creation.factory;
  * 工厂方法模式由
  *  { 抽象工厂，具体工厂，抽象产品，具体产品 }4个要素构成；
  *
+ * 一个工厂只有一个产品簇
  */
 public class FactoryMethod {
 

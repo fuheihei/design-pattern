@@ -5,6 +5,14 @@ package com.design.pattern.creation.factory;
  * 抽象工厂(Abstract Factory Pattern)
  *
  * 又称为Kit模式
+ *
+ * 对象：
+ * 1 抽象产品
+ * 2 具体产品
+ * 3 抽象工厂
+ * 4 具体工厂
+ *
+ * 一个工厂可以生产多个产品簇
  */
 public class AbstractFactory {
 

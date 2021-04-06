@@ -18,6 +18,8 @@ import java.security.NoSuchAlgorithmException;
  *   抽象产品角色是所创建的所有对象的父类，负责描述所有实例所共有的公共接口
  * ConcreteProduct：具体产品角色
  *   具体产品角色是创建目标，所有创建的对象都充当这个角色的某个具体类的实例。
+ *
+ *   特点：没有抽象工厂，只有具体工厂；提供一个统一的工厂创建产品对象
  */
 public class SimpleFactory {
 
