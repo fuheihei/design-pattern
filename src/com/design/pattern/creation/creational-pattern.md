@@ -1,6 +1,6 @@
 #创建型模式
 
-[单例模式](singleton/intro-singleton.md)
+[单例模式](singleton/singleton.md)
 
 懒汉模式单例 饿汉模式单例
 双重检测锁单例 静态内部类单例
