@@ -22,14 +22,12 @@ import java.util.Optional;
  *  定义实现化角色的接口，供扩展抽象化角色调用
  * 4. 具体实现化 (Concrete Implementor)
  *  给出实现化角色接口的具体实现
- *
- *
  */
 public class BridgeTest {
 
     public static void main(String[] args) {
-        Implementor implementor=new ConcreteImplementA();
-        Abstraction abstraction=new RefinedAbstraction(implementor);
+        Implementor implementor = new ConcreteImplementA();
+        Abstraction abstraction = new RefinedAbstraction(implementor);
         abstraction.Operation();
     }
 
