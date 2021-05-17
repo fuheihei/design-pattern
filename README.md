@@ -3,7 +3,7 @@
 GoF设计模式中有23种设计模式
 7个面向对象设计原则
 
-## Startup
+## ☕️ Startup
 使用idea File -> open... -> 选择项目打开即可
 
 ## 7个面向对象设计原则
@@ -54,9 +54,11 @@ GoF设计模式中有23种设计模式
 |6.享元模式 | [structure/Flyweight](src/com/design/pattern/structure/flyweight/FlyWeightTest.java)|
 |7.组合模式  |  [structure/Composite](src/com/design/pattern/structure/composite/CompositeTest.java)|
 
-### 参考:
+###📖 参考:
 注：无意侵权，如有版权问题，随时删除
 1. [《图解设计模式》16种设计模式](https://design-patterns.readthedocs.io/zh_CN/latest/)
 2. [Java设计模式：23种设计模式全面解析（超级详细) ](http://c.biancheng.net/design_pattern/)
 3. [设计模式(刘伟) 24种设计模式](https://gof.quanke.name/)
 
+###📧 联系方式:
+fuhaixu@foxmail.com
