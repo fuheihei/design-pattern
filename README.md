@@ -28,26 +28,26 @@ GoF设计模式中有23种设计模式
 |2.策略模式 |[behavior/Strategy](src/com/design/pattern/behavior/strategy/StrategyTest.java)|
 |3.责任链模式|[behavior/Chain Of Responsibility](src/com/design/pattern/behavior/chainofresponsibility/ChainOfResponsibilityTest.java)|
 |4.命令行模式|[behavior/Command](src/com/design/pattern/behavior/command/CommandTest.java)|
-|5.状态模式|[behavior/state](src/com/design/pattern/behavior/state/StateTest.java)|
+|5.状态模式|[behavior/State](src/com/design/pattern/behavior/state/StateTest.java)|
 |6.观察者模式|[behavior/Observer](src/com/design/pattern/behavior/observer/ObserverTest.java)|
 |7.中介者模式|[behavior/Mediator](src/com/design/pattern/behavior/mediator/MediatorTest.java)|
-|8.迭代器模式|[behavior/interator](src/com/design/pattern/behavior/interator/IteratorTest.java)|
+|8.迭代器模式|[behavior/Interator](src/com/design/pattern/behavior/interator/IteratorTest.java)|
 |9.访问者模式|[behavior/Mediator](src/com/design/pattern/behavior/mediator/MediatorTest.java)|
-|10.备忘录模式|[behavior/memento](src/com/design/pattern/behavior/memento/MementoTest.java)|
-|11.解释器模式|[behavior/interpreter](src/com/design/pattern/behavior/interpreter/InterpreterTest.java)|
+|10.备忘录模式|[behavior/Memento](src/com/design/pattern/behavior/memento/MementoTest.java)|
+|11.解释器模式|[behavior/Interpreter](src/com/design/pattern/behavior/interpreter/InterpreterTest.java)|
 
 ### [结构型模式](src/com/design/pattern/structure/structure-pattern.md)
 7个结构型模式
 
 | 模式名称   | 路径                                                         |
 | ---------- | ------------------------------------------------------------ |
-|1.代理模式| [structure/proxy](src/com/design/pattern/structure/proxy/ProxyTest.java)|
-|2.适配器模式| [structure/adapter](src/com/design/pattern/structure/adapter/AdapterTest.java)|
-|3.桥接模式 |[structure/bridge](src/com/design/pattern/structure/bridge/BridgeTest.java)|
-|4.装饰器模式 | [structure/decorator](src/com/design/pattern/structure/decorator/DecoratorTest.java)|
-|5.外观模式 | [structure/facade](src/com/design/pattern/structure/facade/FacadeTest.java)|
-|6.享元模式 | [structure/flyweight](src/com/design/pattern/structure/flyweight/FlyWeightTest.java)|
-|7.组合模式  |  [structure/composite](src/com/design/pattern/structure/composite/CompositeTest.java)|
+|1.代理模式| [structure/Proxy](src/com/design/pattern/structure/proxy/ProxyTest.java)|
+|2.适配器模式| [structure/Adapter](src/com/design/pattern/structure/adapter/AdapterTest.java)|
+|3.桥接模式 |[structure/Bridge](src/com/design/pattern/structure/bridge/BridgeTest.java)|
+|4.装饰器模式 | [structure/Decorator](src/com/design/pattern/structure/decorator/DecoratorTest.java)|
+|5.外观模式 | [structure/Facade](src/com/design/pattern/structure/facade/FacadeTest.java)|
+|6.享元模式 | [structure/Flyweight](src/com/design/pattern/structure/flyweight/FlyWeightTest.java)|
+|7.组合模式  |  [structure/Composite](src/com/design/pattern/structure/composite/CompositeTest.java)|
 
 ### 参考:
 注：无意侵权，如有版权问题，随时删除
