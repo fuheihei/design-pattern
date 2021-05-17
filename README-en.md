@@ -54,12 +54,12 @@ There GoF design pattern has 23 design patterns and 7 oriented-object principles
 |6.Flyweight | [structure/Flyweight](src/com/design/pattern/structure/flyweight/FlyWeightTest.java)|
 |7.Composite  |  [structure/Composite](src/com/design/pattern/structure/composite/CompositeTest.java)|
 
-###📖 Reference:
+### 📖 Reference:
 Tips：If there is any copyright issue, delete it at any time
 1. [design-patterns.readthedocs](https://design-patterns.readthedocs.io/zh_CN/latest/)
 2. [c.biancheng.net/design_pattern/ (recommend)](http://c.biancheng.net/design_pattern/)
 3. [24 design patterns (author: Sunny)](https://gof.quanke.name/)
 
-###📧 Contact me:
+### 📧 Contact me:
 Email: fuhaixu@foxmail.com
 Slogan: Break knowledge silos
