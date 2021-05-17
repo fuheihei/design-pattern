@@ -1,10 +1,16 @@
 ## 设计模式 Java 代码实现
 
-GoF设计模式中有23种设计模式
-7个面向对象设计原则
+```java 
+模式是在特定环境下人们解决某类重复出现问题的一套成功或有效的解决方案。
+
+A pattern is a successful or efficient solution to a recurring problem within a context
+```
+
+GoF在1994年提出设计模式，有23种设计模式，7个面向对象设计原则
+本项目旨在收录各种Java常用的设计模式，组成文档；希望能对你平时的学习和面试工作有所帮助。
 
 ## ☕️ Startup
-使用idea File -> open... -> 选择项目打开即可
+使用Idea，菜单右上角的 File -> open... -> 选择项目打开即可
 
 ## 7个面向对象设计原则
 [设计原则详细 doc/design-principle](doc/design-principle.md)
@@ -54,12 +60,12 @@ GoF设计模式中有23种设计模式
 |6.享元模式 | [structure/Flyweight](src/com/design/pattern/structure/flyweight/FlyWeightTest.java)|
 |7.组合模式  |  [structure/Composite](src/com/design/pattern/structure/composite/CompositeTest.java)|
 
-###📖 参考:
+### 📖 参考:
 注：无意侵权，如有版权问题，随时删除
 1. [《图解设计模式》16种设计模式](https://design-patterns.readthedocs.io/zh_CN/latest/)
 2. [Java设计模式：23种设计模式全面解析（超级详细) ](http://c.biancheng.net/design_pattern/)
 3. [设计模式(刘伟) 24种设计模式](https://gof.quanke.name/)
 
-###📧 联系方式:
+### 📧 联系方式:
 Email: fuhaixu@foxmail.com
 Slogan: Break knowledge silos

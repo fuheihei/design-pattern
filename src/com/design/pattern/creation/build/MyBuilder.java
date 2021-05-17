@@ -13,13 +13,13 @@ public class MyBuilder {
 
     public static void main(String[] args) {
         System.out.println("---------------RUN : builder pattern ------------------");
-        AbsBuilder builder = new ConcereteBuidler();
-        Director director = new Director(builder);
-        Product product = director.contruct();
+        AbsBuilder concreteBuidler = new ConcreteBuidler();
+        Director director = new Director(concreteBuidler);
+        Product product = director.construct();
         product.show();
     }
 
-    static class Product{
+    static class Product {
         private String partA;
         private String partB;
         private String partC;
@@ -36,25 +36,27 @@ public class MyBuilder {
             this.partC = partC;
         }
 
-        public void show(){
-            System.out.println("A="+partA+",B="+partB+",C="+partC);
+        public void show() {
+            System.out.println("A=" + partA + ",B=" + partB + ",C=" + partC);
         }
     }
 
-    public static abstract class AbsBuilder{
+    public static abstract class AbsBuilder {
         //创建产品对象
-        protected Product product=new Product();
+        protected Product product = new Product();
 
         public abstract void buildPartA();
+
         public abstract void buildPartB();
+
         public abstract void buildPartC();
 
-        public Product getResult(){
+        public Product getResult() {
             return product;
         }
     }
 
-    public static class ConcereteBuidler extends AbsBuilder{
+    public static class ConcreteBuidler extends AbsBuilder{
 
         @Override
         public void buildPartA() {
@@ -72,14 +74,14 @@ public class MyBuilder {
         }
     }
 
-    static class Director{
+    static class Director {
         private AbsBuilder builder;
 
-        public Director(AbsBuilder builder){
-            this.builder=builder;
+        public Director(AbsBuilder builder) {
+            this.builder = builder;
         }
 
-        public Product contruct(){
+        public Product construct() {
             builder.buildPartA();
             builder.buildPartB();
             builder.buildPartC();

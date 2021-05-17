@@ -1,11 +1,5 @@
 package com.design.pattern.creation.factory;
 
-
-import javax.crypto.Cipher;
-import javax.crypto.KeyGenerator;
-import javax.crypto.NoSuchPaddingException;
-import java.security.NoSuchAlgorithmException;
-
 /**
  * 简单工厂模式  又叫静态工厂方法模式
  * Simple Factory Patter  aka (Static Factory Method Pattern)
@@ -28,30 +22,34 @@ public class SimpleFactory {
         Factory factory = new Factory();
         Product product = factory.createProduct("HTML");
         product.use();
-
-        //JDK example
-        try {
-            KeyGenerator keyGenerator = KeyGenerator.getInstance("DESede");
-            Cipher cp = Cipher.getInstance("DESede");
-        } catch (NoSuchAlgorithmException | NoSuchPaddingException e) {
-            e.printStackTrace();
-        }
+        product = factory.createProduct("PDF");
+        product.use();
     }
 
-    public interface Product{
+    public interface Product {
         void use();
     }
 
-    static class HTMLProduct implements Product{
+    static class HTMLProduct implements Product {
         @Override
         public void use() {
             System.out.println("HTML product");
         }
     }
-    static class Factory{
-        Product createProduct(String name){
-            if("HTML".equals(name)){
+
+    static class PDFProduct implements Product {
+        @Override
+        public void use() {
+            System.out.println("PDF product");
+        }
+    }
+
+    static class Factory {
+        Product createProduct(String name) {
+            if ("HTML".equals(name)) {
                 return new HTMLProduct();
+            } else if ("PDF".equals(name)) {
+                return new PDFProduct();
             }
             return null;
         }
