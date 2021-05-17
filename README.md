@@ -1,13 +1,13 @@
-## 设计模式 Java 代码实现
+# 设计模式 Java 代码实现
 
 GoF设计模式中有23种设计模式
-7个面向对象设计原则
+## 7个面向对象设计原则
 
 
-24个设计模式
+## 23个设计模式
 
 ### [创建型模式](src/com/design/pattern/creation/creational-pattern.md)
-6个创建型模式
+5个创建型模式
 
 | 模式名称   | 路径                                                         |
 | ---------- | ------------------------------------------------------------ |
@@ -26,8 +26,15 @@ GoF设计模式中有23种设计模式
 | ---------- | ------------------------------------------------------------ |
 |1.模板方法 |[behavior/Template Method](src/com/design/pattern/behavior/tempmethod/TemplateMethodTest.java)|
 |2.策略模式 |[behavior/Strategy](src/com/design/pattern/behavior/strategy/StrategyTest.java)|
-|3.责任链模式|[behavior/]()|
-|4.命令行模式|[behavior/Command]()|
+|3.责任链模式|[behavior/Chain Of Responsibility](src/com/design/pattern/behavior/chainofresponsibility/ChainOfResponsibilityTest.java)|
+|4.命令行模式|[behavior/Command](src/com/design/pattern/behavior/command/CommandTest.java)|
+|5.状态模式|[behavior/state](src/com/design/pattern/behavior/state/StateTest.java)|
+|6.观察者模式|[behavior/Observer](src/com/design/pattern/behavior/observer/ObserverTest.java)|
+|7.中介者模式|[behavior/Mediator](src/com/design/pattern/behavior/mediator/MediatorTest.java)|
+|8.迭代器模式|[behavior/interator](src/com/design/pattern/behavior/interator/IteratorTest.java)|
+|9.访问者模式|[behavior/Mediator](src/com/design/pattern/behavior/mediator/MediatorTest.java)|
+|10.备忘录模式|[behavior/memento](src/com/design/pattern/behavior/memento/MementoTest.java)|
+|11.解释器模式|[behavior/interpreter](src/com/design/pattern/behavior/interpreter/InterpreterTest.java)|
 
 ### [结构型模式](src/com/design/pattern/structure/structure-pattern.md)
 7个结构型模式

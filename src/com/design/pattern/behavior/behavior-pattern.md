@@ -9,7 +9,7 @@
 
 行为型模式有11种
 
-1.[模板方法（Template Method）](tempmethod/TemplateMethodTest.java)
+1.[模板方法(Template Method)](tempmethod/TemplateMethodTest.java)
 
 2.[策略模式](strategy/StrategyTest.java)
 

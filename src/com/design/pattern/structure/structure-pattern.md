@@ -1,6 +1,6 @@
 #结构型模式
 
-Structural Pattern
+Structural Pattern 6个
 
 1.代理模式
 [Proxy](proxy/ProxyTest.java)
@@ -19,3 +19,6 @@ Structural Pattern
 
 6.享元模式
 [FlyWeight](flyweight/FlyWeightTest.java)
+
+7.组合模式
+[Composite](composite/CompositeTest.java)

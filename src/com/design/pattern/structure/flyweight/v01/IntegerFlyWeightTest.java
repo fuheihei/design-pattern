@@ -1,7 +1,5 @@
 package com.design.pattern.structure.flyweight.v01;
 
-import org.omg.CORBA.INTERNAL;
-
 public class IntegerFlyWeightTest {
 
     public static void main(String[] args) {
