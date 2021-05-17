@@ -23,7 +23,6 @@ GoF设计模式中有23种设计模式
 |5.简单工厂模式 | [creation/SimpleFactory](src/com/design/pattern/creation/factory/SimpleFactory.java) |
 
 
-
 ### [行为型模式](src/com/design/pattern/behavior/behavior-pattern.md)
 11个行为型模式
 
@@ -40,6 +39,7 @@ GoF设计模式中有23种设计模式
 |9.访问者模式|[behavior/Mediator](src/com/design/pattern/behavior/mediator/MediatorTest.java)|
 |10.备忘录模式|[behavior/Memento](src/com/design/pattern/behavior/memento/MementoTest.java)|
 |11.解释器模式|[behavior/Interpreter](src/com/design/pattern/behavior/interpreter/InterpreterTest.java)|
+
 
 ### [结构型模式](src/com/design/pattern/structure/structure-pattern.md)
 7个结构型模式
@@ -61,4 +61,5 @@ GoF设计模式中有23种设计模式
 3. [设计模式(刘伟) 24种设计模式](https://gof.quanke.name/)
 
 ###📧 联系方式:
-fuhaixu@foxmail.com
+Email: fuhaixu@foxmail.com
+Slogan: Break knowledge silos
