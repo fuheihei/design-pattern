@@ -1,8 +1,11 @@
 # 设计模式 Java 代码实现
 
 GoF设计模式中有23种设计模式
-## 7个面向对象设计原则
+## Startup
 
+
+## 7个面向对象设计原则
+[设计原则详细 doc/design-principle](doc/design-principle.md)
 
 ## 23个设计模式
 
