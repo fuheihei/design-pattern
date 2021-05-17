@@ -1,4 +1,4 @@
-#创建型模式
+#创建型模式 5个
 
 [单例模式](singleton/singleton.md)
 

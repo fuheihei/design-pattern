@@ -1,4 +1,4 @@
-package com.design.pattern.behavior.interator;
+package com.design.pattern.behavior.iterator;
 
 
 import java.util.ArrayList;

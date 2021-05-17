@@ -23,7 +23,7 @@
 
 7.[中介者模式](mediator/MediatorTest.java)
 
-8.[迭代器模式](interator/IteratorTest.java)
+8.[迭代器模式](iterator/IteratorTest.java)
 
 9.[访问者模式](visitor/VisitorTest.java)
 

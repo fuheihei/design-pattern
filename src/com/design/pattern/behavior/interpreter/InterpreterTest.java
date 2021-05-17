@@ -5,6 +5,8 @@ package com.design.pattern.behavior.interpreter;
  * 解释器模式
  * interpreter pattern
  *
+ *
+ * Objects:
  * 抽象表达式（Abstract Expression）角色：
  * 定义解释器的接口，约定解释器的解释操作，主要包含解释方法 interpret()。
  * 终结符表达式（Terminal Expression）角色：
@@ -23,6 +25,39 @@ package com.design.pattern.behavior.interpreter;
  *
  */
 public class InterpreterTest {
+
+    interface AbsExpression{
+        void interpret(String info);
+    }
+
+    static class TerminalExpression implements AbsExpression{
+        @Override
+        public void interpret(String info) {
+
+        }
+    }
+
+    static class NonTerminalExpression implements AbsExpression{
+        private AbsExpression exp1;
+        private AbsExpression exp2;
+        @Override
+        public void interpret(String info) {
+
+        }
+    }
+
+    static class Context{
+        private AbsExpression expression;
+
+        public Context(){
+
+        }
+
+        public void operation(String info){
+            //调用解释器相关方法
+            this.expression.interpret(info);
+        }
+    }
 
     public static void main(String[] args) {
 

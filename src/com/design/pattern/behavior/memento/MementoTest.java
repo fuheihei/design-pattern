@@ -1,7 +1,5 @@
 package com.design.pattern.behavior.memento;
 
-import sun.util.resources.LocaleData;
-
 import java.lang.reflect.Method;
 import java.time.DayOfWeek;
 import java.time.LocalDate;
