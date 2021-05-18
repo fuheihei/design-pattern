@@ -1,4 +1,4 @@
-#结构型模式
+# 结构型模式
 
 Structural Pattern 6个
 

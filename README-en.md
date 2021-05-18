@@ -1,12 +1,12 @@
-## Design Pattern implemented on Java
+## Design Pattern implemented in Java
 
-There GoF design pattern has 23 design patterns and 7 oriented-object principles.
+There GoF design pattern has 23 design patterns and 7 object-oriented principles.
 
 ## ☕️ Startup
 1. you need open Idea;
 2. choose File -> open... -> choose this project to open
 
-## 7 oriented-object principles
+## 7 object-oriented principles
 [documentation  doc/design-principle](doc/design-principle.md)
 
 ## 23 design patterns

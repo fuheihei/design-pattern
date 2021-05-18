@@ -1,7 +1,6 @@
 package com.design.pattern.structure.flyweight;
 
 
-import java.util.Arrays;
 import java.util.HashMap;
 
 /**
