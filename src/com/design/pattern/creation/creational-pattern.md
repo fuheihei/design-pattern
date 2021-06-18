@@ -1,4 +1,4 @@
-#创建型模式 5个
+# 创建型模式 5个
 
 [简单工厂模式](factory/SimpleFactory.java)
 静态工厂方法

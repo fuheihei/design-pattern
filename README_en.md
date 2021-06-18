@@ -1,20 +1,25 @@
-## Design Pattern implemented on Java
+## Design Pattern implemented in Java
 
 ```java 
 A pattern is a successful or efficient solution to a recurring problem within a context
 ```
+
+There GoF design pattern has 23 design patterns and 7 object-oriented principles.
 
 GoF(Gang of Four) have designed 7 Object-Oriented principles and 23 design patterns since 1994.
 The purpose of creating this project is to collect knowledge of design patterns and prevent 
 forgiving them in the future.
 
 I hope the project can help you study design patterns easily and help you upgrade knowledge or attain better jobs.
+
 ## ☕️ Startup
 1. you need open Idea;
 2. choose File -> open... -> choose this project to open
+
 ## 7 oriented-object principles
 Documentation:
 [doc/design-principle](doc/design-principle.md)
+
 ## 23 design patterns
 
 ### [Creation design pattern](src/com/design/pattern/creation/creational-pattern.md)
