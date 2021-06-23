@@ -1,5 +1,7 @@
 ## 设计模式 Java 代码实现
 
+## [参考资料](#reference)
+
 ```java 
 模式是在特定环境下人们解决某类重复出现问题的一套成功或有效的解决方案。
 
@@ -27,7 +29,7 @@ GoF在1994年提出设计模式，有23种设计模式，7个面向对象设计�
 |3.抽象工厂模式 | [creation/AbstractFactory](src/com/design/pattern/creation/factory/AbstractFactory.java) |
 |4.工厂方法模式 | [creation/FactoryMethod](src/com/design/pattern/creation/factory/FactoryMethod.java) |
 |5.简单工厂模式 | [creation/SimpleFactory](src/com/design/pattern/creation/factory/SimpleFactory.java) |
-
+|原型模式| [creation/Prototype](src/com/design/pattern/)
 
 ### [行为型模式](src/com/design/pattern/behavior/behavior-pattern.md)
 11个行为型模式
@@ -60,6 +62,7 @@ GoF在1994年提出设计模式，有23种设计模式，7个面向对象设计�
 |6.享元模式 | [structure/Flyweight](src/com/design/pattern/structure/flyweight/FlyWeightTest.java)|
 |7.组合模式  |  [structure/Composite](src/com/design/pattern/structure/composite/CompositeTest.java)|
 
+### Reference
 ### 📖 参考:
 注：无意侵权，如有版权问题，随时删除
 1. [《图解设计模式》16种设计模式](https://design-patterns.readthedocs.io/zh_CN/latest/)

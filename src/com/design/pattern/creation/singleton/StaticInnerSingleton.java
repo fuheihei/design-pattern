@@ -4,7 +4,7 @@ public class StaticInnerSingleton {
 
     private StaticInnerSingleton() { }
 
-    public StaticInnerSingleton getIntance() {
+    public StaticInnerSingleton getInstance() {
         return InnnerSingleton.sIntance;
     }
 
