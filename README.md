@@ -3,7 +3,7 @@
 ## [参考资料](#reference)
 
 ```java 
-模式是在特定环境下人们解决某类重复出现问题的一套成功或有效的解决方案。
+设计模式定义：模式是在特定环境下人们解决某类重复出现问题的一套成功或有效的解决方案。
 
 A pattern is a successful or efficient solution to a recurring problem within a context
 ```
