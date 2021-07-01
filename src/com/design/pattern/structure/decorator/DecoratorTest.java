@@ -15,8 +15,8 @@ public class DecoratorTest {
 
 
     public static void main(String[] args) {
-        Component component=new ConcreteComponent();
-        Decorator decorator=new ConcreteDecorator(component);
+        Component component = new ConcreteComponent();
+        Decorator decorator = new ConcreteDecorator(component);
         decorator.operation();
     }
 
@@ -25,38 +25,42 @@ public class DecoratorTest {
         void operation();
     }
 
-    static class ConcreteComponent implements Component{
-        public ConcreteComponent(){}
+    static class ConcreteComponent implements Component {
+        public ConcreteComponent() {
+        }
+
         @Override
         public void operation() {
             System.out.println("ConcreteComponent operation");
         }
     }
 
-    static class Decorator implements Component{
-        private Component component;
+    static class Decorator implements Component {
+        protected Component component;
 
-        public Decorator(Component component){
-            this.component=component;
+        public Decorator(Component component) {
+            this.component = component;
         }
+
         @Override
         public void operation() {
             component.operation();
         }
     }
 
-    static class ConcreteDecorator extends Decorator{
+    static class ConcreteDecorator extends Decorator {
 
         public ConcreteDecorator(Component component) {
             super(component);
         }
 
-        public void operation(){
+        public void operation() {
             super.operation();
             addedFunction();
         }
 
-        public void addedFunction(){
+        //添加的业务方法
+        public void addedFunction() {
             System.out.println("ConcreteDecorator operation");
         }
     }

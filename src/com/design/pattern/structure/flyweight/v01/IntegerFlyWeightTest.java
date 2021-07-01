@@ -10,5 +10,6 @@ public class IntegerFlyWeightTest {
         Integer b1=200;
         System.out.println(a1==a);
         System.out.println(b==b1);
+        System.out.println(b.equals(b1));
     }
 }
