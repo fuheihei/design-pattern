@@ -75,8 +75,8 @@ public class FlyWeightTest {
     }
 
     //享元工厂角色
-    static class FlyWeightFactory{
-        private HashMap<String,FlyWeight> flyWeights=new HashMap<>();
+    static class FlyWeightFactory {
+        private HashMap<String, FlyWeight> flyWeights = new HashMap<>();
 
         public FlyWeight getFlyWeight(String key) {
             FlyWeight flyWeight = (FlyWeight) flyWeights.get(key);

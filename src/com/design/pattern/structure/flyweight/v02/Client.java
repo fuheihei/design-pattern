@@ -21,7 +21,7 @@ public class Client {
         black2 = factory.getIgoChessman("b");
         black3 = factory.getIgoChessman("b");
         System.out.println(black1 == black2);
-        System.out.println(black3==black1);
+        System.out.println(black3 == black1);
 
         white1 = factory.getIgoChessman("w");
         white2 = factory.getIgoChessman("w");
