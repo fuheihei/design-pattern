@@ -53,17 +53,18 @@ public class ObserverTest {
     }
 
     interface Observer{
+        //update
         void response();
     }
 
-    static abstract class Subject{
-        protected List<Observer> observers=new ArrayList<>();
+    static abstract class Subject {
+        protected List<Observer> observers = new ArrayList<>();
 
-        public void add(Observer observer){
+        public void add(Observer observer) {
             observers.add(observer);
         }
 
-        public void remove(Observer observer){
+        public void remove(Observer observer) {
             observers.remove(observer);
         }
 

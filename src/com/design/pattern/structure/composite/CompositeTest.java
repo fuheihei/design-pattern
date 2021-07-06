@@ -2,7 +2,7 @@ package com.design.pattern.structure.composite;
 
 /**
  * 组合模式
- * composite pattern aka 整体部分模式 whole-part pattern
+ * composite pattern （aka 整体部分模式 whole-part pattern）
  *
  *
  * 组合模式的角色
@@ -12,6 +12,7 @@ package com.design.pattern.structure.composite;
  * 在透明式的组合模式中抽象构件还声明访问和管理子类的接口；
  * 在安全式的组合模式中不声明访问和管理子类的接口，管理工作由树枝构件完成。
  * （总的抽象类或接口，定义一些通用的方法，比如新增、删除）
+ *
  * 2.Leaf
  * 树叶构件
  * 是组合中的叶节点对象，它没有子节点，用于继承或实现抽象构件。

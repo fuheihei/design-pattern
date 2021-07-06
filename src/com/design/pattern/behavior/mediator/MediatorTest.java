@@ -39,22 +39,16 @@ public class MediatorTest {
 
 
     static abstract class Mediator{
-        public abstract void register(Colleague cl);
+        protected List<Colleague> colleagues = new ArrayList<>();
+        public void register(Colleague cl){
+            if (!colleagues.contains(cl)) {
+                colleagues.add(cl);
+            }
+        }
         public abstract void relay(Colleague cl);
     }
 
      static class ConcreteMediator extends Mediator{
-
-         private List<Colleague> colleagues = new ArrayList<>();
-
-         @Override
-         public void register(Colleague cl) {
-             if (!colleagues.contains(cl)) {
-                 colleagues.add(cl);
-                 cl.setMedium(this);
-             }
-         }
-
          @Override
          public void relay(Colleague cl) {
              for (Colleague colleague : colleagues) {
@@ -68,11 +62,9 @@ public class MediatorTest {
 
     static abstract class Colleague{
         protected Mediator mediator;
-
         public void setMedium(Mediator mediator){
             this.mediator=mediator;
         }
-
         public abstract void receive();
         public abstract void send();
     }

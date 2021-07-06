@@ -11,6 +11,7 @@ import java.util.stream.Stream;
  * 备忘录模式
  * memento pattern
  * 快照模式
+ * 支持撤销的操作
  *
  * 备忘录模式的主要角色如下。
  * 发起人（Originator）角色：

@@ -4,6 +4,7 @@ package com.design.pattern.behavior.visitor;
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
+import java.util.PriorityQueue;
 
 /**
  *
@@ -65,6 +66,7 @@ public class VisitorTest {
 
         @Override
         public void visit(ConcreteElementB concreteElementB) {
+            PriorityQueue<Integer> pq=new PriorityQueue<>();
             System.out.println("ConcreteVistorA--> "+concreteElementB.operationB());
         }
     }
