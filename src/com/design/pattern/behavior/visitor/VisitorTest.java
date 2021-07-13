@@ -54,7 +54,6 @@ public class VisitorTest {
 
     interface Visitor {
         void visit(ConcreteElementA concreteElementA);
-
         void visit(ConcreteElementB concreteElementB);
     }
 
@@ -66,7 +65,6 @@ public class VisitorTest {
 
         @Override
         public void visit(ConcreteElementB concreteElementB) {
-            PriorityQueue<Integer> pq=new PriorityQueue<>();
             System.out.println("ConcreteVistorA--> "+concreteElementB.operationB());
         }
     }

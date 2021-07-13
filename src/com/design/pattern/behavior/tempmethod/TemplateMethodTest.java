@@ -23,7 +23,54 @@ package com.design.pattern.behavior.tempmethod;
  */
 public class TemplateMethodTest {
 
-    public static void main(String[] args) {
 
+    static abstract class AbsClass{
+
+        //模板方法
+        public void templateMethod(){
+            primitiveMethod1();
+            if (isPrimitive2()){
+                primitiveMethod2();
+            }
+        }
+
+        public abstract void primitiveMethod1();
+        public abstract void primitiveMethod2();
+
+        //基本方法
+        public void print(String str){
+            System.out.println(str);
+        }
+
+        //钩子方法
+        public boolean isPrimitive2(){
+            return true;
+        }
+    }
+
+
+    static class ConcreteClass extends AbsClass{
+
+        @Override
+        public boolean isPrimitive2() {
+            return false;
+        }
+
+        @Override
+        public void primitiveMethod1() {
+            print("primitiveMethod1");
+        }
+
+        @Override
+        public void primitiveMethod2() {
+            print("primitiveMethod2");
+        }
+    }
+
+
+
+    public static void main(String[] args) {
+        AbsClass absClass=new ConcreteClass();
+        absClass.templateMethod();
     }
 }

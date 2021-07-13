@@ -1,5 +1,7 @@
 package com.design.pattern.structure.composite;
 
+import java.util.ArrayList;
+
 /**
  * 组合模式
  * composite pattern （aka 整体部分模式 whole-part pattern）
@@ -31,4 +33,63 @@ public class CompositeTest {
 
     }
 
+
+    public static abstract class Component {
+        public abstract void add(Component c);
+
+        public abstract void remove(Component c);
+
+        public abstract Component getChild(int i);
+
+        public abstract void operation();
+    }
+
+    public static class Leaf extends Component {
+        @Override
+        public void add(Component c) {
+
+        }
+
+        @Override
+        public void remove(Component c) {
+
+        }
+
+        @Override
+        public Component getChild(int i) {
+            return null;
+        }
+
+        @Override
+        public void operation() {
+
+        }
+    }
+
+    public static class Composite extends Component {
+
+        private ArrayList<Component> list = new ArrayList<>();
+
+        @Override
+        public void add(Component c) {
+            list.add(c);
+        }
+
+        @Override
+        public void remove(Component c) {
+            list.remove(c);
+        }
+
+        @Override
+        public Component getChild(int i) {
+            return list.get(i);
+        }
+
+        @Override
+        public void operation() {
+            for (Component c:list){
+                c.operation();
+            }
+        }
+    }
 }

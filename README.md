@@ -13,6 +13,7 @@ GoF在1994年提出设计模式，有23种设计模式，7个面向对象设计�
 使用Idea，菜单右上角的 File -> open... -> 选择项目打开即可
 
 根据参考的书目，列举了以下的 7个设计原则 和 23种设计模式
+补充设计模式：原型模式
 ## 7个面向对象设计原则
 [设计原则详细 doc/design-principle](doc/design-principle.md)
 
@@ -28,7 +29,7 @@ GoF在1994年提出设计模式，有23种设计模式，7个面向对象设计�
 |3.抽象工厂模式 | [creation/AbstractFactory](src/com/design/pattern/creation/factory/AbstractFactory.java) |
 |4.工厂方法模式 | [creation/FactoryMethod](src/com/design/pattern/creation/factory/FactoryMethod.java) |
 |5.简单工厂模式 | [creation/SimpleFactory](src/com/design/pattern/creation/factory/SimpleFactory.java) |
-|原型模式| [creation/Prototype](src/com/design/pattern/)
+|6.原型模式| [creation/Prototype](src/com/design/pattern/)
 
 ### [行为型模式](src/com/design/pattern/behavior/behavior-pattern.md)
 11个行为型模式
