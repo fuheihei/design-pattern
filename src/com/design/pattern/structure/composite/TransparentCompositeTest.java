@@ -14,19 +14,24 @@ public class TransparentCompositeTest {
     }
 
     //抽象构件
-    interface Component{
+    interface Component {
         public void add(Component c);
+
         void remove(Component c);
+
         Component getChild(int i);
+
         void operation();
     }
+
     //树叶构件
-    class Leaf implements Component{
+    class Leaf implements Component {
         private String name;
 
-        public Leaf(String name){
-            this.name=name;
+        public Leaf(String name) {
+            this.name = name;
         }
+
         @Override
         public void add(Component c) {
 
@@ -44,13 +49,13 @@ public class TransparentCompositeTest {
 
         @Override
         public void operation() {
-            System.out.println("leaf "+this.name+"is visited !");
+            System.out.println("leaf " + this.name + "is visited !");
         }
     }
 
-    static class Composite implements Component{
+    static class Composite implements Component {
 
-        private ArrayList<Component> children=new ArrayList<>();
+        private ArrayList<Component> children = new ArrayList<>();
 
         @Override
         public void add(Component c) {
@@ -69,7 +74,7 @@ public class TransparentCompositeTest {
 
         @Override
         public void operation() {
-            for (Component c:children){
+            for (Component c : children) {
                 c.operation();
             }
         }
