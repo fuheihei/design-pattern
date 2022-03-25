@@ -11,7 +11,7 @@ import java.lang.reflect.Proxy;
 public class ProxyTest {
 
     public static void main(String[] args) {
-        Proxy proxy=new Proxy();
+        Proxy proxy = new Proxy();
         proxy.Request();
 
     }
@@ -21,30 +21,30 @@ public class ProxyTest {
         void Request();
     }
 
-    static class ReaslSubject implements Subject{
+    static class RealSubject implements Subject {
         @Override
         public void Request() {
             System.out.println("realsubject request..");
         }
     }
 
-    static class Proxy implements Subject{
+    static class Proxy implements Subject {
 
-        private ReaslSubject reaslSubject;
+        private RealSubject realSubject;
 
         @Override
         public void Request() {
-            if(reaslSubject==null){
-                reaslSubject=new ReaslSubject();
+            if (realSubject == null) {
+                realSubject = new RealSubject();
             }
         }
 
-        public void preRequest(){
+        public void preRequest() {
             System.out.println("pre request...");
         }
 
 
-        public void postRequest(){
+        public void postRequest() {
             System.out.println("post request...");
         }
     }

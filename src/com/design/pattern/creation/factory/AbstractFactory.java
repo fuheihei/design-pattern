@@ -17,7 +17,11 @@ package com.design.pattern.creation.factory;
 public class AbstractFactory {
 
     public static void main(String[] args) {
-
+        AsFactory factory = new ConcreteF1();
+        Product1 p1 = factory.newProduct1();
+        Product2 p2 = factory.newProduct2();
+        if (p1 != null) p1.show();
+        if (p2 != null) p2.show();
     }
 
     interface Product1{
@@ -35,7 +39,7 @@ public class AbstractFactory {
 
 
 
-    class ConcreteF1 implements AsFactory{
+    static class ConcreteF1 implements AsFactory{
 
         @Override
         public Product2 newProduct2() {

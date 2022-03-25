@@ -17,13 +17,13 @@ public class FactoryMethod {
         AbsFactory af;
 
         //使用工厂1
-        af=new ConcreteFactory1();
-        p=af.newProduct();
+        af = new ConcreteFactory1();
+        p = af.newProduct();
         p.show();
 
         //使用工厂2
-        af=new ConcreteFactory2();
-        p=af.newProduct();
+        af = new ConcreteFactory2();
+        p = af.newProduct();
         p.show();
     }
 
